@@ -1,0 +1,125 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Baloo Da 2",
+    serif;
+    }
+/*
+
+html{
+  font-size: 62.5%;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.section-wrapper{
+  width: inherit;
+  height: inherit;
+} */
+
+#nav {
+    position: relative;
+    left: 0px;
+    height: 60px;
+    background-color: #2C64B4;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.top-container-main{
+  position: relative;
+  text-align: center;
+}
+
+.banner{
+  position: absolute;
+  top: 20vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner h2{
+    font-size: 5vw;
+}
+
+.banner button{
+  width: 10rem;
+  height: 3rem;
+  background-color: goldenrod;
+  margin-top: 20px;
+  font-size: 2rem;
+  font-family: "Castoro", serif;
+  text-transform: uppercase;
+  text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+.top-image{
+  opacity: 0.5;
+}
+
+.wrapper{
+  position: relative;
+  text-align: center;
+  height: 50vh;
+}
+.text{
+  padding-left: 30vw;
+  padding-right: 30vw;
+  padding-bottom: 5vw;
+  padding-top: 3vw;
+}
+
+.three-columns{
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.div-showcase-main{
+  position: relative;
+  height: 500px;
+  background-color: aqua;
+}
