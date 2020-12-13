@@ -5,8 +5,6 @@
   outline: none;
   text-decoration: none;
   list-style-type: none;
-  font-family: "Baloo Da 2",
-    serif;
     }
 /*
 
@@ -81,6 +79,8 @@ section{
 
 .banner h2{
     font-size: 5vw;
+    font-family: "Baloo Da 2",
+    serif;
 }
 
 .banner button{
@@ -102,7 +102,6 @@ section{
 .wrapper{
   position: relative;
   text-align: center;
-  height: 50vh;
 }
 .text{
   padding-left: 30vw;
@@ -116,10 +115,108 @@ section{
   grid-template-columns: 33% 33% 33%;
   padding-left: 20vw;
   padding-right: 20vw;
+  padding-bottom: 3vw;
 }
 
-.div-showcase-main{
+.showcase-main{
   position: relative;
-  height: 500px;
-  background-color: aqua;
+  /* height: 500px; */
+  background-color: lightgrey;
+}
+
+.showcase-main h2 {
+  text-align: center;
+  padding-top: 2vw;
+  padding-bottom: 0.5vw;
+}
+
+.showcase-main p{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.showcase-item{
+  margin: 0  auto;
+  text-align: center;
+  width: 400px
+}
+
+.showcase-item img{
+  padding-bottom: 0px;
+  margin-bottom: 0;
+}
+
+.showcase-item p{
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.shoecase-item img p{
+  float: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.showcase-item a:hover{
+  opacity: 0.3;
+}
+
+.showcase-grid{
+  display: grid;
+  grid-template-columns: 40%  80%;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+/* Bootstrap */
+.thumbnail-slider{
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+.thumbnail-slider .thumbnail-container{
+	width: 100%;
+	float: left;
+	transition: margin 1s ease;
+}
+
+.thumbnail-slider .item{
+  height: 250px;
+  background-color: grey;
+  line-height: 250px;
+  text-align: center;
+  font-size: 50px;
+  color:#ffffff;
+  float: left;
+}
+
+.thumbnail-slider .controls{
+	width: 100%;
+	float: left;
+	padding:15px;
+}
+
+.thumbnail-slider .controls ul{
+	display: block;
+	text-align: center;
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+.thumbnail-slider .controls ul li{
+	height: 35px;
+	width: 35px;
+	border:1px solid #c3c3c3;
+	margin:4px;
+	display: inline-block;
+	line-height: 33px;
+	cursor: pointer;
+}
+.thumbnail-slider .controls ul li.active{
+	background-color: green;
+	color:#ffffff;
+
 }
