@@ -86,7 +86,7 @@ section{
 .banner button{
   width: 10rem;
   height: 3rem;
-  background-color: goldenrod;
+  background-color: #00bb9c;
   margin-top: 20px;
   font-size: 2rem;
   font-family: "Castoro", serif;
@@ -233,6 +233,7 @@ section{
 }
 .contact-main button{
   margin-bottom: 30px;
+  background-color: #00bb9c;
 }
 
 .footer{
@@ -243,9 +244,20 @@ section{
   padding-left: 20%;
   padding-top: 4%;
   color: #a5b5c4;
-
 }
 
+.footer h3{
+  padding-bottom: 20px;
+  color: #fffffb;
+}
+
+.footer h1{
+  font-size: 350%;
+}
+
+.footer a:visited{
+  color: inherit;
+}
 
 .button{
   width: auto;
@@ -262,6 +274,52 @@ section{
 }
 
 .bottom-bar{
-  height: 40px;
+  height: 60px;
   background-color: #293646;
+}
+
+.grid2x2{
+  width:200px;
+  height:200px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-row: auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+
+.grid2x2-box{
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:sans-serif;
+}
+
+.grid2x2-box a:hover{
+  opacity: 0.3;
+}
+
+#about-us{
+  padding-top: 20px;
+}
+
+#subscribe{
+  padding-top: 15px;
+}
+
+#subscribe input{
+  height: 25px;
+}
+
+#subscribe button{
+  background-color: #00bb9c;
+  border: 0;
+  height: 25px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-family: "Castoro", serif;
+  text-transform: uppercase;
+  text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
 }
