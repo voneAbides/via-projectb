@@ -34,7 +34,7 @@ section{
     position: relative;
     left: 0px;
     height: 60px;
-    background-color: #2C64B4;
+    background-color: white;
     width: 100%;
     margin: 0 auto;
 }
@@ -43,7 +43,7 @@ section{
     margin: 0;
     padding: 0;
     list-style: none;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #nav ul li {
@@ -56,8 +56,26 @@ section{
     text-decoration: none;
     padding: 15px 20px;
     display: block;
-    color: #FFF;
+    color: #506a85;
     text-align: center;
+}
+
+#FURDE{
+  padding-top: 0px;
+  margin-top: -5px;
+  /* margin-right: 25vw; */
+  left: 15%;
+  display: inline-block;
+  height: 48px;
+  transform: translate(-50%);
+  position: absolute;
+}
+
+#menu{
+  left: 50%;
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%);
 }
 
 .responsive {
@@ -322,4 +340,10 @@ section{
   text-transform: uppercase;
   text-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
   box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.4);
+}
+
+#all-rights{
+  padding-top: 20px;
+  margin-left: 70px;
+  color: #758292;
 }
