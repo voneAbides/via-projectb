@@ -30,6 +30,23 @@ section{
   height: inherit;
 } */
 
+
+p{
+  color: #73879c;
+}
+
+h1{
+  color: #4c6987;
+}
+
+h2{
+  color: #4c6987;
+}
+
+h3{
+  color: #4c6987;
+}
+
 #nav {
     position: relative;
     left: 0px;
@@ -160,7 +177,7 @@ section{
 .showcase-item{
   margin: 0  auto;
   text-align: center;
-  width: 400px
+  width: 400px;
 }
 
 .showcase-item img{
@@ -173,6 +190,7 @@ section{
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: white;
+  color: #73879c;
 }
 
 .shoecase-item img p{
@@ -281,6 +299,7 @@ section{
 
 .footer h1{
   font-size: 350%;
+  color: #fffffb;
 }
 
 .footer a:visited{
@@ -425,6 +444,11 @@ section{
 
 .get-in-touch h1{
   font-size: 50px;
+  color: white;
+}
+
+.get-in-touch h2{
+  color: white;
 }
 
 .get-in-touch p{
