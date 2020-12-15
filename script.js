@@ -83,6 +83,7 @@ function controlSlides(ele){
 
 window.onload=load();
 
+
 function sendMessage(){
   console.log(document.getElementById('name').value);
   alert("Name:\n"
