@@ -1,19 +1,19 @@
-const controls=document.querySelector(".controls");
-const container=document.querySelector(".thumbnail-container");
-const allBox=container.children;
+const controls = document.querySelector(".controls");
+const container = document.querySelector(".thumbnail-container");
+const allBox = container.children;
 const containerWidth=container.offsetWidth;
-const margin=30;
- var items=0;
- var totalItems=0;
- var jumpSlideWidth=0;
+const margin = 30;
+ var items = 0;
+ var totalItems = 0;
+ var jumpSlideWidth = 0;
 
 
 // item setup per slide
 
 responsive=[
-{breakPoint:{width:0,item:1}}, //if width greater than 0 (1 item will show)
-{breakPoint:{width:600,item:2}}, //if width greater than 600 (2  item will show)
-{breakPoint:{width:1000,item:4}} //if width greater than 1000 (4 item will show)
+{breakPoint:{width : 0, item : 1}}, //if width greater than 0 (1 item will show)
+{breakPoint:{width : 600, item : 2}}, //if width greater than 600 (2  item will show)
+{breakPoint:{width : 1000, item : 4}} //if width greater than 1000 (4 item will show)
 ]
 
 function load(){
@@ -82,3 +82,18 @@ function controlSlides(ele){
 }
 
 window.onload=load();
+
+function sendMessage(){
+  console.log(document.getElementById('name').value);
+  alert("Name:\n"
+        + document.getElementById('name').value + '\n\n'
+        + "Email:\n"
+        + document.getElementById('email').value + "\n\n"
+        + "Subject:\n"
+        + document.getElementById('subject').value + "\n\n"
+        + "Message:\n"
+        + document.getElementById('message').value)
+
+window.location.replace("index.html");
+
+}
